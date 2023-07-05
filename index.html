@@ -6,11 +6,93 @@
     <title>Ambiental Facility Services</title>
     <link rel="shortcut icon" href="./resources/images/Isotipo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href=".//css/style.css">
   </head>
   <body>
-    <header>
-    </header>
-    <h1>Hello, world!</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img class="navbar-brand" src="./resources/images/logo-1.png" alt="afslogo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href=".//index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./pages/cleaning.html">Limpieza Integral</a></li>
+                  <li><a class="dropdown-item" href="#">Manejo Integrado de Palagas</a></li>
+                  <li><a class="dropdown-item" href="#">Mantenimiento de Espacios Verdes</a></li>
+                  <li><a class="dropdown-item" href="#">Matafuegos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/we.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contact.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="mainimages1">
+            <img src="https://www.moodyinsurance.com/wp-content/uploads/2022/02/proffecionals-1920x849.jpg" class="d-block w-100" alt="...">
+          </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Limpieza Integral</h5>
+              <p>Ofrecemos serevicios de limpieza para una gran variedad de ocaciones.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="mainimages1">
+            <img src="https://facilityexecutive.com/wp-content/uploads/2016/08/FEJulyAug16-SM-Feature-1.jpg" class="d-block w-100" alt="...">
+          </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Manejo Integrado de Plagas</h5>
+              <p>Tenemos amplios servicios de fumigacion.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="mainimages1">
+            <img src="https://www.deere.com/assets/images/region-4/industries/landscaping-and-grounds-care/mcs/r4f071149-mcs-hero.jpg" class="d-block w-100" alt="...">
+          </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mantenimineto de Espacios Verdes</h5>
+              <p>Mantemos espacios verdes de cualquier tamaño.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>      
   </body>
 </html>
